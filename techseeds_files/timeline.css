@@ -1,8 +1,4 @@
 @font-face{font-family:'Droid Arabic Naskh';font-style:normal;font-weight:400;src:url("http://divar.ir/s/fonts/DroidNaskh-Regular.6e0427fa2c31.eot");src:url("http://divar.ir/s/fonts/DroidNaskh-Regular.6e0427fa2c31.eot?#iefix") format('embedded-opentype'),url("http://divar.ir/s/fonts/DroidNaskh-Regular.7a296cb10750.woff2") format('woff2'),url("http://divar.ir/s/fonts/DroidNaskh-Regular.c81dc074b6ca.woff") format('woff'),url("http://divar.ir/s/fonts/DroidNaskh-Regular.791f577ddc8e.ttf") format('truetype')}@font-face{font-family:'Droid Arabic Naskh';font-style:normal;font-weight:700;src:url("http://divar.ir/s/fonts/DroidNaskh-Bold.933b376475c4.eot");src:url("http://divar.ir/s/fonts/DroidNaskh-Bold.933b376475c4.eot?#iefix") format('embedded-opentype'),url("http://divar.ir/s/fonts/DroidNaskh-Bold.827765ced4b6.woff2") format('woff2'),url("http://divar.ir/s/onts/DroidNaskh-Bold.ae174e252e2f.woff") format('woff'),url("http://divar.ir/s/fonts/DroidNaskh-Bold.0968720cd2bf.ttf") format('truetype')}
-* {
-  direction: rtl;
-  font-family: 'Droid Arabic Naskh';
-}
 .timeline {
   list-style: none;
   padding: 20px 0 20px;
@@ -223,7 +219,10 @@
 .timeline > li.timeline-inverted > .timeline-badge{
   left: -12px;
 }
-
+* {
+  direction: rtl;
+  font-family: 'Droid Arabic Naskh';
+}
 @media (max-width: 767px) {
     ul.timeline:before {
         left: 40px;
@@ -277,3 +276,8 @@
   left: 28px;
 }
 }
+*, h3 {
+  direction: rtl;
+  font-family: 'Droid Arabic Naskh';
+}
+
